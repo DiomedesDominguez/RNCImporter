@@ -30,7 +30,8 @@ CREATE TABLE [dbo].[mRNCs](
 	[Telefono] [varchar](10) NULL,
 	[Registrado] [varchar](10) NULL,
 	[Estado] [varchar](20) NULL,
-	[RegimenPagos] [varchar](10) NULL
+	[RegimenPagos] [varchar](10) NULL,
+	[Actualizado] [datetime] NOT NULL
 ) ON [PRIMARY]
 GO
 
@@ -55,4 +56,5 @@ GO
 ALTER TABLE [dbo].[mRNCs] ADD  CONSTRAINT [DF_mRNCs_Estado]  DEFAULT ('') FOR [Estado]
 GO
 
-
+ALTER TABLE [dbo].[mRNCs] ADD  CONSTRAINT [DF_mRNCs_Actualizado]  DEFAULT (GetDate()) FOR [Actualizado]
+GO
