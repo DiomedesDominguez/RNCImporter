@@ -6,7 +6,7 @@ Este proyecto sirve como prueba de concepto para descargar todo el listado de lo
 
 La aplicación descarga el archivo ZIP desde la ruta oficial de la DGII (http://www.dgii.gov.do/app/WebApps/Consultas/RNC/DGII_RNC.zip), y lo descomprime en la misma ruta de inicio del proyecto.
 
-Tomando la cadena de conección, nombre de la tabla y cantidad de registros por lote desde el archivo app.config, se borra dicha tabla por completo para luego proceder a realizar bulk inserts.
+Tomando la cadena de conexión, nombre de la tabla y cantidad de registros por lote desde el archivo app.config, se borra dicha tabla por completo para luego proceder a realizar bulk inserts.
 
 Este CSV divide cada columna en barras | y en ocasiones los registros tienen dobles espacios, por lo que se procede a dividir las columnas y a limpiar dichos campos.
 
