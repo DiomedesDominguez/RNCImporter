@@ -13,3 +13,6 @@ Este CSV divide cada columna en barras | y en ocasiones los registros tienen dob
 Finalmente se elimina el archivo zip y su contenido descomprimido al finalizar la carga de datos en la base de datos.
 
 El archivo table_structure.sql sirve únicamente para ejemplificar la estructura de la tabla en la que se ha de registrar los datos.
+
+### Cambios
+últimamente estoy notando que muchos les gustó este proyecto, pensaré en algunas mejoras.
